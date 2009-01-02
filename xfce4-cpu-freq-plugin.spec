@@ -1,5 +1,5 @@
 Summary:	Cpu-freq plugins for Xfce desktop
-Name:		xfce4-cpu-freq-plugin
+Name:		xfce4-cpufreq-plugin
 Version:	0.0.1
 Release:	%mkrel 7
 License:	GPLv2+

@@ -36,9 +36,8 @@ simple system for managing the frequency of the CPU.
 
 %files -f %{name}.lang
 %doc README ChangeLog AUTHORS
-%{_libdir}/xfce4/panel-plugins/*
-%{_datadir}/xfce4/panel-plugins/*.desktop
-%{_iconsdir}/hicolor/*/apps/*.png
+%{_libdir}/xfce4/panel/plugins/libcpufreq.so*
+%{_datadir}/xfce4/panel/plugins/cpufreq.desktop
 
 
 %changelog

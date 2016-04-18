@@ -27,7 +27,7 @@ simple system for managing the frequency of the CPU.
 
 
 %build
-%configure
+%configure2_5x
 %make
 
 %install

@@ -1,9 +1,10 @@
 %define url_ver %(echo %{version} | cut -c 1-3)
+%define _disable_rebuild_configure 1
 
 Summary:	Cpu-freq plugin for Xfce desktop
 Name:		xfce4-cpufreq-plugin
-Version:	1.1.1
-Release:	3
+Version:	1.1.2
+Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
 URL:		http://goodies.xfce.org/projects/panel-plugins/xfce4-cpufreq-plugin
@@ -38,3 +39,5 @@ simple system for managing the frequency of the CPU.
 %doc README ChangeLog AUTHORS
 %{_libdir}/xfce4/panel/plugins/libcpufreq.so*
 %{_datadir}/xfce4/panel/plugins/cpufreq.desktop
+%{_iconsdir}/*/*/apps/xfce4-cpufreq-plugin.png
+

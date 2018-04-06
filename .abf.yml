@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   xfce4-cpufreq-plugin-1.1.2.tar.bz2: ae0e76b6bcb68f10a24b1294fe3026adde0e4861
+sources:
+  xfce4-cpufreq-plugin-1.1.90.tar.bz2: afd196b9188bbd2584e92440dbae7e49d6e9bf9e

@@ -7,7 +7,7 @@ Version:	1.2.8
 Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
-URL:		http://goodies.xfce.org/projects/panel-plugins/xfce4-cpufreq-plugin
+URL:		https://goodies.xfce.org/projects/panel-plugins/xfce4-cpufreq-plugin
 Source0:	http://archive.xfce.org/src/panel-plugins/xfce4-cpufreq-plugin/%{url_ver}/%{name}-%{version}.tar.bz2
 Requires:	xfce4-panel >= 4.8.0
 BuildRequires: 	pkgconfig(libxfce4panel-2.0)

@@ -3,12 +3,12 @@
 
 Summary:	Cpu-freq plugin for Xfce desktop
 Name:		xfce4-cpufreq-plugin
-Version:	1.2.8
+Version:	1.2.9
 Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
 URL:		https://goodies.xfce.org/projects/panel-plugins/xfce4-cpufreq-plugin
-Source0:	http://archive.xfce.org/src/panel-plugins/xfce4-cpufreq-plugin/%{url_ver}/%{name}-%{version}.tar.bz2
+Source0:	https://archive.xfce.org/src/panel-plugins/xfce4-cpufreq-plugin/%{url_ver}/%{name}-%{version}.tar.bz2
 Requires:	xfce4-panel >= 4.8.0
 BuildRequires: 	pkgconfig(libxfce4panel-2.0)
 BuildRequires:	pkgconfig(libxfce4ui-2)
@@ -23,7 +23,7 @@ CPU freq plugin for the Xfce Desktop Environment. It provides a
 simple system for managing the frequency of the CPU.
 
 %prep
-%setup -q
+%autosetup -p1
 
 %build
 %configure
